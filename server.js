@@ -5,6 +5,10 @@ app.get('/helloo', (req, res) => {
   res.send('Hello, Vercel!');
 });
 
+app.get('/hi', (req, res) => {
+    res.send('Hello, Vercel!');
+  });
+
 // Define more endpoints or middleware as needed
 
 const PORT = process.env.PORT || 3000;
