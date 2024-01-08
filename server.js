@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-app.get('/yourEndpoint', (req, res) => {
+app.get('/hello', (req, res) => {
   res.send('Hello, Vercel!');
 });
 
